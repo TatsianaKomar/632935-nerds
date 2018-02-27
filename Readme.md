@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Таня Комар](https://up.htmlacademy.ru/htmlcss/20/user/632935).
-* Наставник: `Неизвестно`.
+* Наставник: [Вадим Новаш](https://up.htmlacademy.ru/htmlcss/20/user/8589).
 
 ---
 

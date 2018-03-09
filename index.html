@@ -7,7 +7,7 @@
   <body>
   	<header class="main-header">
   		<nav class="main-navigation">
-        <a class="main-header-logo">
+        <a class="logo">
 				  <img src="img/logo.svg" alt="Логотип дизайн-студии «Нёрдс»">
 			  </a>
         <ul class="site-navigation">
@@ -16,8 +16,10 @@
   				<li><a href="catalog.html">Магазины</a></li>
   				<li><a href="contacts.html">Контакты</a></li>
   			</ul>
-        <button type="button" class="cart">Корзина</button>
-  		</nav>
+      </nav>
+      <div class="cart">
+        <a href="cart.html">Корзина</a>
+      </div>
       <section class="main-slider">
         <!--Тут слайдер-->
       </section>
@@ -50,7 +52,7 @@
           <h3 class="visually-hidden">Описание</h3>
           <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-          <b>Выполняем заказы на разработку:</b>
+          <p>Выполняем заказы на разработку:</p>
           <ul class="info-description-list">
             <li>Веб-сайтов любой сложности</li>
             <li>Мобильных приложений для iOS и Android</li>
@@ -59,7 +61,7 @@
         </section>
         <section class="info-terms">
           <h3 class="visually-hidden">Условия</h3>       
-          <b>с 2004 года Любим точность во всем:</b>
+          <p>с 2004 года Любим точность во всем:</p>
           <ul class="info-terms-list">
             <li><span>146%</span>Уровень самоотдачи</li>
             <li><span>100%</span>Соблюдение сроков</li>
@@ -78,19 +80,23 @@
       </section>
   	</main>
     <footer class="main-footer">
-      <section class="footer-contacts">
-        <h2 class="visually-hidden">Контакты</h2>
-        <b>Nёrds Design studio</b>
-        <p>191186, Санкт-Петербург,<br> 
-          ул. Б. Конюшенная, д. 19/8</p>
+      <section class="map">
+        <h2 class="visually-hidden">Как нас найти</h2>
+        <section class="contacts">
+          <h3>Nёrds Design studio</h3>
+          <p>191186, Санкт-Петербург,<br> 
+            ул. Б. Конюшенная, д. 19/8</p>
           <p>тел. +7 (812) 275-75-75</p>
-        <button type="button">Напишите нам</button>
+          <div class="feedback">
+            <a href="feedback.html">Напишите нам</a>
+          </div>
+        </section>
       </section>
       <div class="footer-social">
-        <ul>
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
+        <ul class="socials">
+          <li><a class="social-button-vk" href="#">Вконтакте</a></li>
+          <li><a class="social-button-fb" href="#">Фейсбук</a></li>
+          <li><a class="social-button-ig" href="#">Инстаграм</a></li>
         </ul>
         <div class="footer-social-discount">
           <b>Давайте дружить, это выгодно!</b>
@@ -103,4 +109,5 @@
       <!--Тут форма-->
       <span class="modal-close">x</span>
     </section>
+  </body>
 </html>

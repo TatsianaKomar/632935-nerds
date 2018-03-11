@@ -28,7 +28,18 @@
           <form class="filter" action="https://echo.htmlacademy.ru" method="get">
             <fieldset>
               <legend>Стоимость</legend>
-              
+              <p>
+                <label class="visually-hidden" for="filter-cost">Диапазон стоимости</label>
+                <input type="range" min="0" max="15000" id="filter-cost" name="filter-cost">
+              </p>
+              <p>
+                <label for="filter-cost-from">От</label>             
+                <input type="text" name="filter-cost-from" id="filter-cost-from">
+              </p>
+              <p>
+                <label for="filter-cost-to">До</label>             
+                <input type="text" name="filter-cost-to" id="filter-cost-to">
+              </p>
             </fieldset>
             <fieldset>
               <legend>Сетка</legend>

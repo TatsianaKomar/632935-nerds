@@ -228,7 +228,11 @@ a{
 	height: 308px;
 	font-size: 18px;
 	line-height: 30px;
-	text-transform: uppercase;
+}
+
+.contacts b {
+	text-transform: uppercase;	
+	font-weight: 700;
 }
 
 .socials {

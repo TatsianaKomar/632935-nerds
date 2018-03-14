@@ -92,6 +92,17 @@ a{
 	color: #ffffff;
 }
 
+.button:hover,
+.price-button:hover {
+	background-color: #e74246;
+}
+
+.button:active,
+.price-button:active {
+	background-color: #d7373b;
+	color: rgba(255, 255, 255, 0.3);
+}
+
 .services-item:nth-child(2) .button {
 	background-color: #00ca74;
 }
@@ -99,6 +110,26 @@ a{
 .services-item:nth-child(3) .button {
 	background-color: #efc84a;
 }
+
+.services-item:nth-child(2) .button:hover {
+	background-color: #00bc6c;
+}
+
+.services-item:nth-child(3) .button:hover {
+	background-color: #eab534;
+}
+
+.services-item:nth-child(2) .button:active {
+	background-color: #00aa62;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.services-item:nth-child(3) .button:active {
+	background-color: #e5a722;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+
 
 .services-list {
 	list-style: none;

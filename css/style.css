@@ -10,3 +10,31 @@ body {
 .main-header {
 	background-color: #eeeeee;
 }
+
+a{
+	text-decoration: none;
+}
+
+.main-navigation {
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.main-navigation a {
+	color: #000000;
+}
+
+.cart {
+	text-transform: uppercase;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.cart a {
+	color: #000000;
+}
+
+.site-navigation {
+	list-style: none;
+}

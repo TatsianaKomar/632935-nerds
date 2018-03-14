@@ -120,3 +120,16 @@ a{
 	text-transform: uppercase;
 }
 
+.socials {
+	list-style: none;
+}
+
+.footer-social-discount{
+	line-height: 22px;
+}
+
+.footer-social-discount b {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 36px;
+}

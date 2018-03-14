@@ -155,6 +155,43 @@ a{
 	list-style: none;
 }
 
+.vk::before {
+	content: "";
+	display: block;
+	background-color: #e1e1e1;
+	background-image: url("../img/vk-icon.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 50%;
+	width: 78px;
+	height: 78px;
+}
+
+.fb::before {
+	content: "";
+	display: block;
+	background-color: #e1e1e1;
+	background-image: url("../img/fb-icon.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 50%;
+	width: 78px;
+	height: 78px;
+}
+
+.ig::before {
+	content: "";
+	display: block;
+	background-color: #e1e1e1;
+	background-image: url("../img/ig-icon.svg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 50%;
+	width: 78px;
+	height: 78px;
+}
+
+
 .footer-social-discount{
 	line-height: 22px;
 }

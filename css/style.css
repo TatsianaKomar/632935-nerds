@@ -1,6 +1,6 @@
 body {
 	font-family: Roboto, Arial, sans-serif;
-		font-size: 16px;
+	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #000000;
@@ -74,4 +74,32 @@ a{
 	line-height: 30px;
 	font-weight: 700;
 }
+
+.info-description b {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+}
+
+.info-description p:last-of-type {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.info-terms p {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.info-terms-list {
+	line-height: 18px;
+	list-style: none;
+}
+
+.info-terms-list span {
+	font-size: 45px;
+	line-height: 10.06px;
+	font-weight: 700;
+}
+
 

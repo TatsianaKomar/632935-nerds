@@ -45,7 +45,8 @@ a{
 	line-height: 55px;
 }
 
-.button {
+.button,
+.price-button {
 	background-color: #fb565a;
 	text-align: center;
 	vertical-align: middle;

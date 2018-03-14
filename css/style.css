@@ -25,6 +25,18 @@ a{
 	color: #000000;
 }
 
+.main-navigation a:hover {
+	color: #fb565a;
+}
+
+.main-navigation a:active {
+	color: #a6a6a6;
+}
+
+.site-navigation-current {
+	border-bottom: 2px solid #fb565a;
+}
+
 .cart {
 	text-transform: uppercase;
 	line-height: 30px;

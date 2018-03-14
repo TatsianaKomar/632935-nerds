@@ -106,4 +106,17 @@ a{
 	list-style: none;
 }
 
+.map {
+	background-image: url("../img/map.jpg");
+	background-repeat: no-repeat;
+}
+
+.contacts {
+	background-color: #ffffff;
+	width: 319px;
+	height: 308px;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
 

@@ -125,6 +125,14 @@ a{
 	font-weight: 700;
 }
 
+.info-terms p::before {
+	content: "";
+	display: block;
+	background-image: url("../img/nerds-illustration.jpg");
+	width:360px;
+	height: 208px;
+}
+
 .partners-list {
 	list-style: none;
 }

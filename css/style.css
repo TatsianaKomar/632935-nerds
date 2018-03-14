@@ -38,3 +38,28 @@ a{
 .site-navigation {
 	list-style: none;
 }
+
+.slide b {
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+}
+
+.button {
+	background-color: #fb565a;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+	line-height: 18px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.services-item:nth-child(2) .button {
+	background-color: #00ca74;
+}
+
+.services-item:nth-child(3) .button {
+	background-color: #efc84a;
+}

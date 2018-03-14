@@ -45,6 +45,29 @@ a{
 	line-height: 55px;
 }
 
+.slide-image-1 {
+	background-image: url(../img/slide-1.png);
+	background-repeat: no-repeat;
+	width: 760px;
+	height: 431px;
+}
+
+.slide-image-2 {
+	background-image: url(../img/slide-2.png);
+	background-repeat: no-repeat;
+	width: 760px;
+	height: 431px;
+}
+
+
+.slide-image-3 {
+	background-image: url(../img/slide-3.png);
+	background-repeat: no-repeat;
+	width: 760px;
+	height: 431px;
+}
+
+
 .button,
 .price-button {
 	background-color: #fb565a;

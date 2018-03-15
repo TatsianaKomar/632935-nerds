@@ -401,7 +401,7 @@ a{
 	list-style: none;
 }
 
-.vk::before {
+.socials li:nth-child(1)::before {
 	content: "";
 	display: block;
 	background-color: #e1e1e1;
@@ -413,7 +413,7 @@ a{
 	height: 78px;
 }
 
-.fb::before {
+.socials li:nth-child(2)::before {
 	content: "";
 	display: block;
 	background-color: #e1e1e1;
@@ -425,7 +425,7 @@ a{
 	height: 78px;
 }
 
-.ig::before {
+.socials li:nth-child(3)::before {
 	content: "";
 	display: block;
 	background-color: #e1e1e1;

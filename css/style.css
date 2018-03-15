@@ -196,6 +196,41 @@ a{
 	border-top: 2px solid #bfbfbf;
 }
 
+.sorting-title {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.sorting-list {
+	list-style: none;
+}
+
+.sorting-arrows {
+	list-style: none;
+}
+
+.sorting-option {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.3);
+	text-transform: uppercase; 
+}
+
+.sorting-option:hover {
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.sorting-option-current,
+.sorting-option:active {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+
 .services-list {
 	list-style: none;
 }

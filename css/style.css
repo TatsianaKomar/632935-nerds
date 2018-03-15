@@ -275,9 +275,6 @@ a{
 	height: 78px;
 }
 
-
-
-
 .footer-social-discount{
 	line-height: 22px;
 }
@@ -286,4 +283,35 @@ a{
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 36px;
+}
+
+.modal-feedback h2 {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+}
+
+.modal-feedback p {
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.modal-feedback-form input {
+	border: 2px solid #d7dcde;
+	color: rgba(68, 68, 68, 0.5);
+}
+
+.modal-feedback-form input:hover {
+	border-color: #b4b9bb;
+	color: rgba(68, 68, 68, 0.5);
+}
+
+.modal-feedback-form input:focus {
+	border-color: #000000;
+	color: #444444;
+}
+
+.modal-feedback-form input:invalid {
+	border-color: #e74246;
+	color: #e74246;
 }

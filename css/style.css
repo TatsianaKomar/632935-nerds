@@ -21,19 +21,20 @@ a{
 	font-weight: 500;
 }
 
-.main-navigation a {
+.main-header a {
 	color: #000000;
 }
 
-.main-navigation a:hover {
+.main-header a:hover {
 	color: #fb565a;
 }
 
-.main-navigation a:active {
+.main-header a:active {
 	color: #a6a6a6;
 }
 
 .site-navigation-current {
+	font: inherit;
 	border-bottom: 2px solid #fb565a;
 }
 

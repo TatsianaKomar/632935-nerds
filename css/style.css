@@ -136,7 +136,60 @@ a{
 	color: rgba(255, 255, 255, 0.3);
 }
 
+.filter fieldset {
+	border: none;
+}
 
+.filter legend {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.filter-cost label {
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.filter-cost input {
+	background-color: #eeeeee;
+	border: none;
+}
+
+.filter-option {
+	list-style: none;
+	line-height: 20px;
+	color: #283136;
+}
+
+.filter-input:hover + label {
+	color: #000000;
+}
+
+.filter-input:disabled + label {
+	color: rgba(40, 49, 54, 0.3);
+}
+
+.filter-button {
+	background-color: #eeeeee;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: none;
+	line-height: 18px;
+	font-weight: 500;
+}
+
+.filter-button:hover {
+	background-color: #dfdfdf;
+}
+
+.filter-button:active {
+	background-color: #d5d5d5;
+	color: rgba(0, 0, 0, 0.3);
+	border-top: 2px solid #bfbfbf;
+}
 
 .services-list {
 	list-style: none;

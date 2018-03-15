@@ -165,6 +165,9 @@ a{
 .filter-option {
 	list-style: none;
 	line-height: 20px;
+}
+
+.filter-input + label {
 	color: #283136;
 }
 

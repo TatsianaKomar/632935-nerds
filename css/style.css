@@ -68,14 +68,18 @@ a{
 	line-height: 55px;
 }
 
-.slide-image-1 {
+.slide-1 p::after {
+	content: "";
+	display: block;
 	background-image: url("../img/slide-1.png");
 	background-repeat: no-repeat;
 	width: 760px;
 	height: 431px;
 }
 
-.slide-image-2 {
+.slide-2 p::after {
+	content: "";
+	display: block;
 	background-image: url("../img/slide-2.png");
 	background-repeat: no-repeat;
 	width: 760px;
@@ -83,7 +87,9 @@ a{
 }
 
 
-.slide-image-3 {
+.slide-3 p::after {
+	content: "";
+	display: block;
 	background-image: url("../img/slide-3.png");
 	background-repeat: no-repeat;
 	width: 760px;

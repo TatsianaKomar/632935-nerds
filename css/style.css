@@ -20,15 +20,18 @@ a{
 	font-weight: 500;
 }
 
-.main-header a {
+.main-navigation a,
+.cart a {
 	color: #000000;
 }
 
-.main-header a:hover {
+.main-navigation a:hover,
+.cart a:hover {
 	color: #fb565a;
 }
 
-.main-header a:active {
+.main-navigation a:active,
+.cart a:active {
 	color: #a6a6a6;
 }
 
@@ -43,9 +46,6 @@ a{
 	font-weight: 500;
 }
 
-.cart a {
-	color: #000000;
-}
 
 .cart-current a {
 	border-bottom: 2px solid #fb565a;

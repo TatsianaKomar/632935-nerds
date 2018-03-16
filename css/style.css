@@ -213,6 +213,8 @@ a{
 
 .sorting-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .sorting-arrows {
@@ -241,6 +243,8 @@ a{
 
 .models-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .model-description {
@@ -277,6 +281,8 @@ a{
 
 .services-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .services-list h3 {
@@ -328,6 +334,8 @@ a{
 .info-terms-list {
 	line-height: 18px;
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .info-terms-list span {
@@ -346,6 +354,8 @@ a{
 
 .partners-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .partners-item {
@@ -362,6 +372,8 @@ a{
 
 .pagination {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .pagination a {
@@ -407,6 +419,8 @@ a{
 
 .socials {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .socials li:nth-child(1)::before {

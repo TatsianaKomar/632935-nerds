@@ -440,13 +440,12 @@ a{
 
 .services-item {
 	width: 300px;
+	display: flex;
+	flex-direction: column;
 }
+
 .services-item:not(:last-child) {
 	margin-right: 100px;
-	
-		/*Для сетки*/
-	outline: 3px solid blue;
-
 }
 
 .services-list h3 {
@@ -454,6 +453,13 @@ a{
 	line-height: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.services-list p {
+	margin-top: 0;
+	margin-bottom: 34px;
 }
 
 .services-list li:nth-child(1)::before {
@@ -481,7 +487,8 @@ a{
 }
 
 .button {
-	padding: 20px 40px;
+	padding: 15px 40px;
+	width: 80px;
 }
 
 .info-description b {

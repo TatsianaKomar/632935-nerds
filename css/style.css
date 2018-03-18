@@ -174,7 +174,8 @@ a{
 
 
 .button,
-.price-button {
+.price-button,
+.slider-button {
 	background-color: #fb565a;
 	text-align: center;
 	vertical-align: middle;
@@ -186,12 +187,14 @@ a{
 }
 
 .button:hover,
-.price-button:hover {
+.price-button:hover,
+.slider-button:hover {
 	background-color: #e74246;
 }
 
 .button:active,
-.price-button:active {
+.price-button:active,
+.slider-button:active {
 	background-color: #d7373b;
 	color: rgba(255, 255, 255, 0.3);
 }
@@ -475,6 +478,10 @@ a{
 	width: 300px;
 	height: 146px;
 	background-image: url("../img/illustration-presentation.jpg");
+}
+
+.button {
+	padding: 20px 40px;
 }
 
 .info-description b {

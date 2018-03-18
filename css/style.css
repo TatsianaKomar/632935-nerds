@@ -16,11 +16,10 @@ body {
 
 .main-header {
 	background-color: #eeeeee;
-	/*Для сетки*/
-	outline: 3px solid red;
-	background-color: rgba(251, 86, 90, 0.1);
 	width: 1440px;
 	min-height: 545px;
+	/*Для сетки*/
+	outline: 3px solid yellow;
 }
 
 a{
@@ -415,16 +414,43 @@ a{
 	height: 41px;
 }
 
+.services {
+	padding: 80px 140px;
+	width: 1160px;
+	/*Для сетки*/
+	outline: 3px solid GREEN;
+	background-color: rgba(240, 186, 190, 0.1);
+	display: flex;
+}
+
 .services-list {
-	list-style: none;
-	margin: 0;
 	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	
+		/*Для сетки*/
+	outline: 3px solid red;
+	background-color: rgba(251, 86, 90, 0.1);
+	
+}
+
+.services-item {
+	width: 300px;
+}
+.services-item:not(:last-child) {
+	margin-right: 100px;
+	
+		/*Для сетки*/
+	outline: 3px solid blue;
+
 }
 
 .services-list h3 {
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .services-list li:nth-child(1)::before {

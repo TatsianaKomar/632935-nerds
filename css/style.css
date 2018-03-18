@@ -432,9 +432,7 @@ a{
 	list-style: none;
 	display: flex;
 	
-		/*Для сетки*/
-	outline: 3px solid red;
-	background-color: rgba(251, 86, 90, 0.1);
+	
 	
 }
 
@@ -491,10 +489,60 @@ a{
 	width: 80px;
 }
 
+.info {
+	display: flex;
+	width: 1160px;
+	padding: 40px 140px 80px 140px;
+		/*Для сетки*/
+	outline: 3px solid red;
+	background-color: rgba(251, 86, 90, 0.1);
+}
+
+.info-description {
+	width: 660px;
+	display: flex;
+	flex-direction: column;
+}
+
 .info-description b {
+	padding-top: 38px;
+	padding-bottom:7px;
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 500;
+}
+
+.info-description p {
+	padding-top: 8px;
+	padding-bottom: 1px; 
+}
+
+.info-description-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.info-description-list li{
+	padding-top: 5px;
+	padding-bottom: 17px;
+	padding-left: 35px;
+
+}
+
+.info-description-list li::before{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 25px;
+	background-color: #fb565a;
+	position: relative;
+	top: 11px;
+	left: -33px;
+
 }
 
 .info-description p:last-of-type {
@@ -505,6 +553,8 @@ a{
 .info-terms p {
 	text-transform: uppercase;
 	font-weight: 700;
+	padding: 0;
+	margin: 0;
 }
 
 .info-terms-list {

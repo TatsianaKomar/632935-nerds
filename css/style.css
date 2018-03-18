@@ -18,8 +18,7 @@ body {
 	background-color: #eeeeee;
 	width: 1440px;
 	min-height: 545px;
-	/*Для сетки*/
-	outline: 3px solid yellow;
+	
 }
 
 a{
@@ -420,9 +419,6 @@ a{
 .services {
 	padding: 80px 140px;
 	width: 1160px;
-	/*Для сетки*/
-	outline: 3px solid GREEN;
-	background-color: rgba(240, 186, 190, 0.1);
 	display: flex;
 }
 
@@ -491,8 +487,9 @@ a{
 
 .info {
 	display: flex;
+	justify-content: space-between;
 	width: 1160px;
-	padding: 40px 140px 80px 140px;
+	padding: 42px 140px 80px 140px;
 		/*Для сетки*/
 	outline: 3px solid red;
 	background-color: rgba(251, 86, 90, 0.1);
@@ -502,10 +499,13 @@ a{
 	width: 660px;
 	display: flex;
 	flex-direction: column;
+		/*Для сетки*/
+	outline: 3px solid yellow;
+}
 }
 
 .info-description b {
-	padding-top: 38px;
+	padding-top: 36px;
 	padding-bottom:7px;
 	font-size: 45px;
 	line-height: 45px;
@@ -550,10 +550,16 @@ a{
 	font-weight: 700;
 }
 
+.info-terms {
+	/*Для сетки*/
+	outline: 3px solid yellow;
+}
+
 .info-terms p {
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 0;
+	text-align: center;
+
 	margin: 0;
 }
 
@@ -561,7 +567,19 @@ a{
 	line-height: 18px;
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 20px;
+
+		/*Для сетки*/
+	outline: 3px solid GREEN;
+	background-color: rgba(240, 186, 190, 0.1);
+
+}
+
+.info-terms-list li {
+	justify-content: space-between;
+	width: 110px;
 }
 
 .info-terms-list span {
@@ -576,6 +594,7 @@ a{
 	background-image: url("../img/nerds-illustration.jpg");
 	width:360px;
 	height: 208px;
+	margin-bottom: 36px;
 }
 
 .partners-list {

@@ -11,7 +11,7 @@ body {
 
 /*Для сетки*/
 .temp {
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 .main-header {
@@ -493,6 +493,7 @@ a{
 		/*Для сетки*/
 	outline: 3px solid red;
 	background-color: rgba(251, 86, 90, 0.1);
+	height: 407px;
 }
 
 .info-description {
@@ -502,7 +503,7 @@ a{
 		/*Для сетки*/
 	outline: 3px solid yellow;
 }
-}
+
 
 .info-description b {
 	padding-top: 36px;
@@ -599,12 +600,25 @@ a{
 
 .partners-list {
 	list-style: none;
-	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 1160px;
+	margin: 51px 140px 50px 140px;
 	padding: 0;
+	padding-left: 0px;
+			/*Для сетки*/
+	outline: 3px solid GREEN;
+	background-color: rgba(240, 186, 190, 0.1);
 }
 
 .partners-item {
 	opacity: 0.2;
+	text-align: center;
+	width: 260px;
+			/*Для сетки*/
+	outline: 3px solid GREEN;
+	background-color: rgba(240, 186, 190, 0.1);
 }
 
 .partners-item:hover {

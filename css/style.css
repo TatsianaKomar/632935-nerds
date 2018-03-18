@@ -11,7 +11,7 @@ body {
 
 /*Для сетки*/
 .temp {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .main-header {
@@ -19,7 +19,8 @@ body {
 	/*Для сетки*/
 	outline: 3px solid red;
 	background-color: rgba(251, 86, 90, 0.1);
-	width: 1440;
+	width: 1440px;
+	min-height: 545px;
 }
 
 a{
@@ -48,28 +49,7 @@ a{
 	padding-right: 140px;
 }
 
-.slider-wrapper {
-	display: flex;
-	margin-left: 140px;
-	margin-right: 140px;
-}
 
-.slide {
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-.slide-1 {
-	width: 515px;
-}
-
-.slide-2 {
-	width: 376px;
-}
-
-.slide-2 {
-	width: 408px;
-}
 
 .main-navigation a,
 .cart a {
@@ -111,12 +91,7 @@ a{
 	margin-bottom: auto;
 }
 
-/*Временно для сетки*/
-.main-header a {
-	outline: 2px solid darkgreen;
-	background-color: lightgreen;
-	opacity: 0.7;
-}
+
 
 .page-title {
 	font-size: 55px;
@@ -131,6 +106,36 @@ a{
 	line-height: 55px;
 }
 
+
+.slider-wrapper {
+	display: flex;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+.slide {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-top: 35px;
+	padding-bottom: auto;
+}
+
+/*
+.slide-1 {
+	width: 378px;
+}
+
+.slide-2 {
+	width: 515px;
+}
+
+.slide-2 {
+	width: 408px;
+}
+
+*/
+
 .slide-1 p::after {
 	content: "";
 	display: block;
@@ -138,6 +143,9 @@ a{
 	background-repeat: no-repeat;
 	width: 760px;
 	height: 431px;
+	position: absolute;
+	top: 132px;
+	left: 571px;
 }
 
 .slide-2 p::after {
@@ -147,6 +155,9 @@ a{
 	background-repeat: no-repeat;
 	width: 760px;
 	height: 431px;
+	position: absolute;
+	top: 115px;
+	left: 636px;
 }
 
 
@@ -157,6 +168,9 @@ a{
 	background-repeat: no-repeat;
 	width: 760px;
 	height: 431px;
+	position: absolute;
+	top: 133px;
+	left: 541px;
 }
 
 

@@ -4,6 +4,13 @@ body {
 	line-height: 24px;
 	font-weight: 400;
 	color: #000000;
+	/*Для сетки*/
+	background-image: url("../img/nerds-index.jpg");
+  	background-repeat: no-repeat;
+}
+
+.temp {
+	opacity: 0.2;
 }
 
 .main-header {

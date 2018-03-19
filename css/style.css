@@ -489,11 +489,11 @@ a{
 	display: flex;
 	justify-content: space-between;
 	width: 1160px;
-	padding: 42px 140px 80px 140px;
+	padding: 42px 140px 56px 140px;
 		/*Для сетки*/
 	outline: 3px solid red;
 	background-color: rgba(251, 86, 90, 0.1);
-	height: 407px;
+	
 }
 
 .info-description {
@@ -524,7 +524,6 @@ a{
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .info-description-list li{
@@ -560,7 +559,6 @@ a{
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
-
 	margin: 0;
 }
 
@@ -568,10 +566,8 @@ a{
 	line-height: 18px;
 	list-style: none;
 	margin: 0;
-	padding-top: 40px;
-	padding-left: 40px;
-	padding-right: 20px;
-
+	padding: 0;
+	display: flex;	
 		/*Для сетки*/
 	outline: 3px solid GREEN;
 	background-color: rgba(240, 186, 190, 0.1);
@@ -579,14 +575,20 @@ a{
 }
 
 .info-terms-list li {
-	justify-content: space-between;
-	width: 110px;
+	width: 100px;
+	padding-bottom: 0;
+	padding-right: 20px;
+	padding-top: 60px;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .info-terms-list span {
 	font-size: 45px;
 	line-height: 10.06px;
 	font-weight: 700;
+	margin-bottom: 37px;
 }
 
 .info-terms p::before {

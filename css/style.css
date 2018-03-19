@@ -500,7 +500,7 @@ a{
 	justify-content: space-between;
 	width: 1160px;
 	padding: 20px;
-	margin: 82px 120px 37px 120px;
+	margin: 62px 120px 37px 120px;
 		/*Для сетки*/
 	outline: 3px solid red;
 	background-color: rgba(251, 86, 90, 0.1);
@@ -509,26 +509,25 @@ a{
 
 .info-description {
 	width: 660px;
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
+	padding: 55px 0 25px 0;
 		/*Для сетки*/
 	outline: 3px solid yellow;
 }
 
 
 .info-description b {
-	padding-top: 36px;
-	padding-bottom:7px;
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 32px;
+
 }
 
 .info-description p {
-	padding-top: 8px;
-	padding-bottom: 1px; 
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 0;
 }
 
 .info-description-list {
@@ -537,13 +536,16 @@ a{
 	list-style: none;
 	display: flex;
 	flex-direction: column;
+		/*Для сетки*/
+	outline: 3px solid yellow;
 }
 
 .info-description-list li{
-	padding-top: 6px;
-	padding-bottom: 18px;
+	padding-top: 10px;
 	padding-left: 35px;
 	position: relative;
+		/*Для сетки*/
+	outline: 3px solid green;
 }
 
 .info-description-list li::before{
@@ -564,6 +566,7 @@ a{
 }
 
 .info-terms {
+	padding-top: 20px;
 	/*Для сетки*/
 	outline: 3px solid yellow;
 }
@@ -618,7 +621,7 @@ a{
 
 	display: flex;
 	align-items: center;
-	margin: 88px 120px 37px 120px;
+	margin: 58px 120px 37px 120px;
 	padding: 0;
 	width: 1200px;
 			/*Для сетки*/
@@ -759,7 +762,6 @@ a{
 .ig::before {
 	content: "";
 	display: block;
-	background-color: #e1e1e1;
 	background-image: url("../img/ig-icon.svg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -795,7 +797,6 @@ a{
 .ig:active::before {
 	content: "";
 	display: block;
-	background-color: #e1e1e1;
 	background-image: url("../img/ig-icon.svg");
 	background-repeat: no-repeat;
 	background-position: 50% 50%;

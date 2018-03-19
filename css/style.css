@@ -463,7 +463,7 @@ a{
 .services-list p {
 	margin-top: 0;
 	margin-bottom: 34px;
-	width: 260px;
+	width:260px;
 }
 
 .services-list li:nth-child(1)::before {
@@ -499,7 +499,8 @@ a{
 	display: flex;
 	justify-content: space-between;
 	width: 1160px;
-	padding: 42px 140px 56px 140px;
+	padding: 20px;
+	margin: 82px 120px 37px 120px;
 		/*Для сетки*/
 	outline: 3px solid red;
 	background-color: rgba(251, 86, 90, 0.1);
@@ -510,6 +511,8 @@ a{
 	width: 660px;
 	display: flex;
 	flex-direction: column;
+	margin: 0;
+	padding: 0;
 		/*Для сетки*/
 	outline: 3px solid yellow;
 }

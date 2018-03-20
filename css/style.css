@@ -673,7 +673,6 @@ a{
 	position: absolute;
 	top:  170px;
 	left: 820px;
-
 }
 
 .feedback .button {
@@ -830,6 +829,10 @@ a{
 .modal-feedback-form input:invalid {
 	border-color: #e74246;
 	color: #e74246;
+}
+
+.modal-feedback .button {
+	padding: 15px 80px;
 }
 
 .visually-hidden {

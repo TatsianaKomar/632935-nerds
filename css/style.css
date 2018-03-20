@@ -490,7 +490,8 @@ a{
 }
 
 .info-description {
-	padding: 35px 0 150px 0;
+	padding-top:  35px;
+	padding-right: 150px
 }
 
 
@@ -512,8 +513,8 @@ a{
 
 .info-description-list li{
 	position: relative;
-	padding: 24px 0;
-	margin: 0 35px;
+	margin: 24px 0;
+	padding: 0 35px;
 }
 
 .info-description-list li::before{
@@ -551,7 +552,9 @@ a{
 
 .info-terms-list li {
 	width: 100px;
-	padding: 59px 20px 0 0;
+	padding-bottom: 0;
+	padding-right: 20px;
+	padding-top: 59px;
 	display: flex;
 	flex-direction: column;
 
@@ -576,6 +579,7 @@ a{
 .partners-list {
 	list-style: none;
 
+	display: flex;
 	margin: 0 140px;
 	padding: 50px 0 33px 0;
 	width: 1160px;

@@ -483,8 +483,8 @@ a{
 .info {
 	display: flex;
 	width: 1160px;
-	padding: 38px 0 48px 0;
-	margin: 75px 140px 0px 140px;
+	padding: 40px 0 48px 0;
+	margin: 73px 140px 0px 140px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;	
 }
@@ -782,6 +782,10 @@ a{
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 36px;
+	}
+
+.footer-social-discount p {
+	margin-top:  10px;
 }
 
 .modal-feedback h2 {

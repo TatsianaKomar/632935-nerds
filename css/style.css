@@ -103,22 +103,13 @@ a{
 	text-align: center;
 }
 
-.header-wrapper-2 {
-	padding: 20px;
+.main-slider {
+	padding: 32px 20px;
 	margin-left: 120px;
 	margin-right: 120px;
 }
 
-.slider-wrapper {
-	display: flex;
-}
 
-.slide {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding-top: 12px;
-}
 
 .slide b {
 	font-size: 55px;
@@ -127,8 +118,12 @@ a{
 }
 
 .slide p {
-	padding-bottom: 20px;
 	padding-top: 12px;
+	padding-bottom: 35px;
+}
+
+.slide .button {
+	padding: 15px 55px;
 }
 /*
 .slide-1 {
@@ -183,9 +178,9 @@ a{
 }
 
 
+
 .button,
-.price-button,
-.slider-button {
+.price-button {
 	background-color: #fb565a;
 	text-align: center;
 	vertical-align: middle;
@@ -197,14 +192,12 @@ a{
 }
 
 .button:hover,
-.price-button:hover,
-.slider-button:hover {
+.price-button:hover {
 	background-color: #e74246;
 }
 
 .button:active,
-.price-button:active,
-.slider-button:active {
+.price-button:active {
 	background-color: #d7373b;
 	color: rgba(255, 255, 255, 0.3);
 }

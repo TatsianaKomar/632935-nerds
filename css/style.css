@@ -665,18 +665,29 @@ a{
 	padding: 16px 44px;
 }
 
+.footer-social {
+	display: flex;
+	width: 1200px;
+	margin: 0 120px 75px 120px;
+}
+
 .socials {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+	flex-grow: 2;
+	padding: 15px 20px;
 }
 
 .social-button {
 	display: flex;
 	border-radius: 50%;
-	width: 78px;
-	height: 78px;
 	background-color: #e1e1e1;
+}
+
+.socials li:not(:last-child) {
+	padding-right: 13px;
 }
 
 .social-button:hover {
@@ -758,6 +769,9 @@ a{
 
 .footer-social-discount{
 	line-height: 22px;
+
+	flex-grow: 4;
+	padding-top: 20px;
 }
 
 .footer-social-discount b {

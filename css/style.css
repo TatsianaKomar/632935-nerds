@@ -639,6 +639,7 @@ a{
 		/* Сделать иначе*/
 	height: 346px;
 	background-position: 0 80px;
+	position: relative;
 }
 
 
@@ -661,6 +662,18 @@ a{
 .contacts p {
 	padding-top: 5px;
 	padding-bottom: 0px;
+}
+
+.contacts::after {
+	content: "";
+	display: block;
+	background-image: url(../img/map-marker.png);
+	height: 190px;
+	width: 155px;
+	position: absolute;
+	top:  170px;
+	left: 820px;
+
 }
 
 .feedback .button {

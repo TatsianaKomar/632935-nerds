@@ -631,11 +631,10 @@ a{
 	background-image: url("../img/map.jpg");
 	background-repeat: no-repeat;
 
-	margin-top: 115px;
-	padding: 35px 120px;
-
-	/* Сделать иначе*/
+	padding: 135px 140px 70px 140px;
+		/* Сделать иначе*/
 	height: 346px;
+	background-position: 0 80px;
 }
 
 
@@ -645,7 +644,6 @@ a{
 	line-height: 18px;
 
 	width: 220px;
-	margin: 19px 20px;
 	padding: 30px 50px 45px 50px;
 }
 
@@ -654,7 +652,6 @@ a{
 	font-weight: 700;
 	line-height: 30px;
 	text-transform: uppercase;	
-
 }
 
 .contacts p {

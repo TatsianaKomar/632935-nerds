@@ -482,21 +482,15 @@ a{
 
 .info {
 	display: flex;
-	justify-content: space-between;
 	width: 1160px;
-	padding: 20px;
-	margin: 62px 120px 37px 120px;
-		/*Для сетки*/
-	outline: 3px solid red;
-	background-color: rgba(251, 86, 90, 0.1);
-	
+	padding: 38px 0 48px 0;
+	margin: 75px 140px 0px 140px;
+	border-top: 2px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;	
 }
 
 .info-description {
-	width: 660px;
-	padding: 55px 0 25px 0;
-		/*Для сетки*/
-	outline: 3px solid yellow;
+	padding: 35px 0 150px 0;
 }
 
 
@@ -504,33 +498,22 @@ a{
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 500;
-	display: inline-block;
-	margin-bottom: 32px;
-
 }
 
 .info-description p {
-	margin: 0;
-	margin-bottom: 40px;
-	padding: 0;
+	margin: 32px 0 40px 0;
 }
 
 .info-description-list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	display: flex;
-	flex-direction: column;
-		/*Для сетки*/
-	outline: 3px solid yellow;
 }
 
 .info-description-list li{
-	padding-top: 10px;
-	padding-left: 35px;
 	position: relative;
-		/*Для сетки*/
-	outline: 3px solid green;
+	padding: 24px 0;
+	margin: 0 35px;
 }
 
 .info-description-list li::before{
@@ -540,7 +523,7 @@ a{
 	width: 25px;
 	background-color: #fb565a;
 	position: absolute;
-	top: 16px;
+	top: 10px;
 	left: 1px;
 
 }
@@ -548,12 +531,7 @@ a{
 .info-description p:last-of-type {
 	text-transform: uppercase;
 	font-weight: 700;
-}
-
-.info-terms {
-	padding-top: 20px;
-	/*Для сетки*/
-	outline: 3px solid yellow;
+	margin-bottom: 23px;
 }
 
 .info-terms p {
@@ -569,17 +547,11 @@ a{
 	margin: 0;
 	padding: 0;
 	display: flex;	
-		/*Для сетки*/
-	outline: 3px solid GREEN;
-	background-color: rgba(240, 186, 190, 0.1);
-
 }
 
 .info-terms-list li {
 	width: 100px;
-	padding-bottom: 0;
-	padding-right: 20px;
-	padding-top: 60px;
+	padding: 59px 20px 0 0;
 	display: flex;
 	flex-direction: column;
 
@@ -604,21 +576,17 @@ a{
 .partners-list {
 	list-style: none;
 
-	display: flex;
-	align-items: center;
-	margin: 58px 120px 37px 120px;
-	padding: 0;
-	width: 1200px;
-			/*Для сетки*/
-	outline: 3px solid GREEN;
-	background-color: rgba(240, 186, 190, 0.1);
+	margin: 0 140px;
+	padding: 50px 0 33px 0;
+	width: 1160px;
+	border-bottom: 2px solid #eeeeee;
 }
+
 
 .partners-item {
 	opacity: 0.2;
 	text-align: center;
-	margin: 0 10px;
-	width: 280px;
+	margin: auto;
 }
 
 

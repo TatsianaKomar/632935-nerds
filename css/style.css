@@ -36,12 +36,14 @@ a{
 
 	display: flex;
 	padding-top: 50px;
+	width: 1100px;
 }
 
 .header-wrapper-1{
 	display: flex;
+	
 	width: 1200px;
-	align-items: center;
+
 	padding: 20px;
 	padding-top: 0px;
 	margin-bottom: 0px;
@@ -72,9 +74,13 @@ a{
 	list-style: none;
 
 	display: flex;
-	padding-top: 25px;
+	flex-wrap: wrap;
 	padding-left: 0;
-	margin: 0;	
+	margin: auto;	
+}
+
+.site-navigation a {
+	padding: 25px 25px;
 }
 
 .site-navigation-current {
@@ -86,7 +92,7 @@ a{
 	text-transform: uppercase;
 	line-height: 30px;
 	font-weight: 500;
-	padding-top: 65px;
+	padding: 75px 40px 0 85px;
 }
 
 
@@ -104,7 +110,7 @@ a{
 }
 
 .main-slider {
-	padding: 32px 20px;
+	padding: 17px 20px;
 	margin-left: 120px;
 	margin-right: 120px;
 }

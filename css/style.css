@@ -34,7 +34,6 @@ a{
 	font-weight: 500;
 
 	display: flex;
-	padding-top: 50px;
 	width: 100%;
 }
 
@@ -44,8 +43,8 @@ a{
 	width: 1160px;
 
 	padding: 20px;
-	margin-bottom: 0px;
-	margin: 30 auto 0 auto;
+	padding-bottom: 0px;
+	margin: 30px auto 0 auto;
 }
 
 .main-navigation a,
@@ -176,11 +175,6 @@ a{
 	list-style: none;
 }
 
-.slide b {
-	font-size: 55px;
-	font-weight: 500;
-	line-height: 55px;
-}
 
 .slide {
 	display: none;
@@ -231,6 +225,17 @@ a{
   background-color: inherit;
   border: 2px solid #c1c1c1;
   border-radius: 50%;
+}
+
+.slide b {
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+
+	display: block;
+	max-width: 600px;
+	margin: 0;
+	margin-bottom: 27px;
 }
 
 .slide p {
@@ -555,13 +560,14 @@ a{
 
 .services-item .button {
 	padding: 15px 40px;
+	border-radius: 3px;
 }
 
 .info {
 	display: flex;
 	width: 1160px;
 	padding: 40px 0 48px 0;
-	margin: 73px 140px 0px 140px;
+	margin: 70px 140px 0px 140px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;	
 }
@@ -658,18 +664,16 @@ a{
 
 	display: flex;
 	margin: 0 140px;
-	padding: 50px 0 33px 0;
+	padding: 50px 0 35px 0;
 	width: 1160px;
 	border-bottom: 2px solid #eeeeee;
 }
-
 
 .partners-item {
 	opacity: 0.2;
 	text-align: center;
 	margin: auto;
 }
-
 
 .partners-item:hover {
 	opacity: 1;
@@ -746,7 +750,7 @@ a{
 	display: block;
 	background-image: url(../img/map-marker.png);
 	height: 190px;
-	width: 155px;
+	width: 231px;
 	position: absolute;
 	top:  170px;
 	left: 820px;
@@ -756,6 +760,7 @@ a{
 	display: inline-block;
 	margin-top: 19px;
 	padding: 16px 44px;
+	border-radius: 3px;
 }
 
 .footer-social {

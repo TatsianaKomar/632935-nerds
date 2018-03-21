@@ -94,6 +94,18 @@ a{
 	padding-left: 44px;
 }
 
+.cart::before {
+	content: "";
+	background-image: url("../img/cart-icon.svg");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 42px;
+	top: 8px;
+	width: 15px;
+	height: 15px;
+	opacity: 0.3;
+}
+
 
 .cart-current a {
 	border-bottom: 2px solid #fb565a;

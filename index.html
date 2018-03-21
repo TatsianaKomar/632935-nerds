@@ -28,30 +28,32 @@
       </div>
       <section class="main-slider">
         <h2 class="visually-hidden">Слайд-шоу о компании</h2>
-        <input type="radio" id="first-slide" name="slides" checked>
-        <input type="radio" id="second-slide" name="slides">
-        <input type="radio" id="third-slide" name="slides">
         <div class="slider-wrapper">
+          <input class="visually-hidden" type="radio" id="slide-1" name="slides" checked>
+          <input class="visually-hidden" type="radio" id="slide-2" name="slides">
+          <input class="visually-hidden" type="radio" id="slide-3" name="slides">
           <div class="controls">
-            <label for="first-slide"></label>
-            <label for="second-slide"></label>
-            <label for="third-slide"></label>
+            <label class="controls-item controls-item--1" for="slide-1"></label>
+            <label class="controls-item controls-item--2" for="slide-2"></label>
+            <label class="controls-item controls-item--3" for="slide-3"></label>
           </div>
-          <div class="slide slide-1">
-            <b>Долго, дорого, <br>скрупулезно.</b>
-            <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-            <a href="studio.html" class="button">Узнать больше</a>
-          </div>
-          <!--<div class="slide slide-2">
-            <b>Любим математику как никто другой</b>
-            <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-            <a href="studio.html" class="button">Узнать больше</a>
-            </div>
-            <div class="slide slide-3">
-                <b>Только ночь, <br>только хардкор</b>
-                <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
-                <a href="studio.html" class="button">Узнать больше</a>
-            </div> -->
+          <ul class="slider-list">
+            <li class="slide">
+              <b>Долго, дорого, <br>скрупулезно.</b>
+              <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+              <a href="studio.html" class="button">Узнать больше</a>
+            </li>
+            <li class="slide">
+              <b>Любим математику как никто другой</b>
+              <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+              <a href="studio.html" class="button">Узнать больше</a>
+            </li>
+            <li class="slide">
+              <b>Только ночь, <br>только хардкор</b>
+              <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
+              <a href="studio.html" class="button">Узнать больше</a>
+            </li> 
+          </ul>
         </div>
       </section>
   	</header>

@@ -241,11 +241,11 @@ a{
 .slide p {
 	max-width: 430px;
 	margin: 0;
-	margin-bottom: 52px;
+	margin-bottom: 50px;
 }
 
 .slide .button {
-	padding: 15px 55px;
+	padding: 15px 54px;
 	border-radius: 3px;
 }
 
@@ -566,8 +566,8 @@ a{
 .info {
 	display: flex;
 	width: 1160px;
-	padding: 40px 0 48px 0;
-	margin: 70px 140px 0px 140px;
+	padding: 40px 0 49px 0;
+	margin: 73px 140px 0px 140px;
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;	
 }
@@ -664,7 +664,7 @@ a{
 
 	display: flex;
 	margin: 0 140px;
-	padding: 50px 0 35px 0;
+	padding: 50px 0 32px 0;
 	width: 1160px;
 	border-bottom: 2px solid #eeeeee;
 }

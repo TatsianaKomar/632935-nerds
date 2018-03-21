@@ -11,7 +11,7 @@ body {
 
 /*Для сетки*/
 .temp {
-	opacity: 0.7;
+	opacity: 0.5;
 }
 
 .main-header {
@@ -114,7 +114,7 @@ a{
 	font-weight: 500;
 	line-height: 55px;
 	text-align: center;
-	margin: 92px auto;
+	margin: 77px auto 109px auto ;
 }
 
 .slider-wrapper {
@@ -378,17 +378,23 @@ a{
 	border-top: 2px solid #bfbfbf;
 }
 
+.sorting {
+	display: flex;
+}
+
 .sorting-title {
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
+	margin: 0;
 }
 
 .sorting-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
 }
 
 .sorting-arrows {

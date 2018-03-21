@@ -380,14 +380,22 @@ a{
 
 .sorting {
 	display: flex;
+	
+	margin: 57px 20px 91px 20px;
 }
 
+.sorting-list-wrapper {
+	flex-grow: 1;
+	display: flex;
+	justify-content: flex-end;
+}
 .sorting-title {
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0;
+	flex-grow: 1;
 }
 
 .sorting-list {
@@ -396,6 +404,8 @@ a{
 	padding: 0;
 	display: flex;
 }
+
+
 
 .sorting-arrows {
 	list-style: none;
@@ -423,6 +433,8 @@ a{
 
 .sorting-arrows {
 	display: flex;
+	margin: 0;
+	padding: 0;
 }
 
 .arrow-down::before {
@@ -496,7 +508,8 @@ a{
 
 .models-item {
 	position: relative;
-	padding: 20px;
+	padding: 0px 20px 67px 20px;
+
 }
 
 .models-item img {
@@ -510,9 +523,13 @@ a{
 	
 	display: block;
 	background-image: url("../img/browser.svg");
+	position: absolute;
+	top: -40px;
 	opacity: 0.12;
 	width: 360px;
 	height: 41px;
+	z-index: -1
+
 }
 
 .models-item:hover::before{
@@ -523,6 +540,7 @@ a{
 	opacity: 1;
 	width: 360px;
 	height: 41px;
+	z-index: -1;
 }
 
 .model-description {
@@ -545,7 +563,7 @@ a{
 .model-description {
 	display: none;
 	position: absolute;
-	bottom: 0;
+	bottom: 74px;
 }
 
 .models-item:hover div {

@@ -755,14 +755,20 @@ a{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
 }
 
 .pagination a {
 	line-height: 18px;
 	background-color: #eeeeee;
-	text-align: center;
+	display: block;
 	color: #000000;
 	text-transform: uppercase;
+	
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 3px;
 }
 
 .pagination a:hover {
@@ -773,6 +779,7 @@ a{
 	background-color: #d5d5d5;
 	color: rgba(0, 0, 0, 0.3);
 	border-top: 3px solid #bfbfbf;
+	
 }
 
 .pagination-current a {

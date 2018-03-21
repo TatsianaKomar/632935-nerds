@@ -5,13 +5,13 @@ body {
 	font-weight: 400;
 	color: #000000;
 	/*Для сетки*/
-	background-image: url("../img/nerds-index.jpg");
+
   	background-repeat: no-repeat;
 }
 
 /*Для сетки*/
 .temp {
-	opacity: 0.7;
+	opacity: 1;
 }
 
 .main-header {
@@ -42,9 +42,9 @@ a{
 	justify-content: space-between;
 	width: 1160px;
 
-	padding: 20px;
+	padding: 50px 20px 20px 20px;
 	padding-bottom: 0px;
-	margin: 30px auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 
 .main-navigation a,

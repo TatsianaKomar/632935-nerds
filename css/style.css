@@ -17,7 +17,6 @@ body {
 .main-header {
 	background-color: #eeeeee;
 	width: 1440px;
-	min-height: 545px;
 }
 
 a{
@@ -36,27 +35,22 @@ a{
 
 	display: flex;
 	padding-top: 50px;
-	width: 1100px;
+	width: 100%;
 }
 
 .header-wrapper-1{
 	display: flex;
-	
-	width: 1200px;
+	justify-content: space-between;
+	width: 1160px;
 
 	padding: 20px;
-	padding-top: 0px;
 	margin-bottom: 0px;
-	margin-left: 120px;
-	margin-right: 120px;
+	margin: 30 auto 0 auto;
 }
-
-
 
 .main-navigation a,
 .cart a {
 	color: #000000;
-
 	display: block;
 }
 
@@ -75,12 +69,12 @@ a{
 
 	display: flex;
 	flex-wrap: wrap;
-	padding-left: 0;
+	padding: 0;
 	margin: auto;	
 }
 
 .site-navigation a {
-	padding: 25px 25px;
+	padding: 15px 23px 0 23px;
 }
 
 .site-navigation-current {
@@ -92,7 +86,12 @@ a{
 	text-transform: uppercase;
 	line-height: 30px;
 	font-weight: 500;
-	padding: 75px 40px 0 85px;
+	display: block;
+	width: 130px;
+	text-align: right;
+	position: relative;
+	margin-top: 24px;
+	padding-left: 44px;
 }
 
 

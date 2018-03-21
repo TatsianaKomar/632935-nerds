@@ -311,6 +311,15 @@ a{
 	color: rgba(255, 255, 255, 0.3);
 }
 
+
+
+.column-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: 0 120px;
+}
+
 .filter fieldset {
 	border: none;
 }

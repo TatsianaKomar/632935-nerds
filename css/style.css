@@ -323,7 +323,7 @@ a{
 
 .filter {
 	padding-left: 10px;
-	padding-top: 14px;
+	padding-top: 15px;
 
 }
 
@@ -339,7 +339,7 @@ a{
 
 .filter-range {
 	width: 260px;
-	margin-top: 49px;
+	margin-top: 48px;
 }
 
 .filter legend {
@@ -413,7 +413,7 @@ a{
 	width: 60px;
 	padding: 8px 10px;
 	margin-left: 9px;
-	margin-bottom: 17px;
+	margin-bottom: 16px;
 
 	font: inherit;
 	text-align: center;
@@ -454,6 +454,60 @@ a{
 
 .filter-input:disabled + label {
 	color: rgba(40, 49, 54, 0.3);
+}
+
+.filter-option label {
+	display: block;
+	position: relative;
+}
+
+.filter-input-radio + label::before {
+	content: "";
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	background-image: url("../img/radio-off.svg");
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	top: -3px;
+	left: -34px;
+}
+
+.filter-input-radio:checked + label::before {
+	content: "";
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	background-image: url("../img/radio-on.svg");
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	top: -3px;
+	left: -34px;
+}
+
+
+.filter-input-checkbox + label::before {
+	content: "";
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	background-image: url("../img/checkbox-off.svg");
+	background-repeat: no-repeat;
+	top: -2px;
+	left: -34px;
+
+}
+
+.filter-input-checkbox:checked + label::before {
+	content: "";
+	width: 28px;
+	height: 28px;
+	position: absolute;
+	background-image: url("../img/checkbox-on.svg");
+	background-repeat: no-repeat;
+	top: -2px;
+	left: -34px;
+
 }
 
 .filter-button {

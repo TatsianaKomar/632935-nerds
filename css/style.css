@@ -518,6 +518,10 @@ a{
 	border: none;
 	line-height: 18px;
 	font-weight: 500;
+
+	padding: 16px 89px;
+	margin-top: 29px;
+	border-radius: 3px;
 }
 
 .filter-button:hover {

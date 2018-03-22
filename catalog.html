@@ -36,16 +36,23 @@
           <form class="filter" action="https://echo.htmlacademy.ru" method="get">
             <fieldset class="filter-cost">
               <legend>Стоимость:</legend>
-              <p class="filter-cost-range">
-              </p>
-              <p>
-                <label for="filter-cost-from">От</label>             
-                <input type="text" name="filter-cost-from" id="filter-cost-from">
-              </p>
-              <p>
-                <label for="filter-cost-to">До</label>             
-                <input type="text" name="filter-cost-to" id="filter-cost-to">
-              </p>
+              <div class="filter-range">
+                <div class="range-controls">
+                  <div class="scale">
+                      <div class="bar"></div>
+                  </div>
+                  <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
+                </div>
+                <div class="cost-controls">
+                  <label class="min-cost"">От            
+                  <input type="text" name="min-cost" id="min-cost"" value="0">
+                  </label>          
+                  <label class="max-cost"">До           
+                  <input type="text" name="max-cost"" id="max-cost"" value="15000">
+                  </label>  
+                </div>
+              </div>
             </fieldset>
             <fieldset>
               <legend>Сетка:</legend>

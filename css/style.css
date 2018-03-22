@@ -11,7 +11,7 @@ body {
 
 /*Для сетки*/
 .temp {
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 .main-header {
@@ -114,7 +114,8 @@ a{
 	font-weight: 500;
 	line-height: 55px;
 	text-align: center;
-	margin: 77px auto 109px auto ;
+	padding-bottom: 109px;
+	margin: 77px auto 0 auto ;
 }
 
 .slider-wrapper {
@@ -320,8 +321,21 @@ a{
 	margin: 0 120px;
 }
 
+.filter {
+	margin-top: 54px;
+	padding-left: 10px;
+
+}
+
 .filter fieldset {
 	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filter-range {
+	width: 260px;
+	margin-top: 49px;
 }
 
 .filter legend {
@@ -329,16 +343,85 @@ a{
 	line-height: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
+
+	outline: 1px solid red;
 }
 
-.filter-cost label {
-	line-height: 22px;
+.range-controls {
+	position: relative;
+	height: 41px;
+  	margin-bottom: 12px;
+  	padding: 39px 20px 0 20px;
+	background-color: #f1f1f1;
+  
+	border-radius: 5px;
+}
+
+.range-controls .scale {
+	height: 2px;
+
+	background: #d7dcde;
+}
+
+.range-controls .bar {
+	width: 70%;
+	height: 2px;
+
+	background: #00ca74;
+}
+
+.range-controls .toggle {  
+	position: absolute;
+	top: 31px;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	padding: 0;
+
+	border: 8px solid #ffffff;
+	background-color: #ababab;
+	box-shadow: 0 2px 1px 0 #cfcfcf;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+.range-controls .toggle-min {
+	left: 18px;
+}
+
+.range-controls .toggle-max {
+	left: 160px;
+}
+
+.cost-controls {
+	font-size: 0;
+}
+
+.cost-controls label {
+	display: inline-block;
+	width: 50%;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
-.filter-cost input {
-	background-color: #eeeeee;
+.cost-controls input {
+	width: 60px;
+	padding: 8px 10px;
+	margin-left: 9px;
+
+	font: inherit;
+	text-align: center;
+	color: #283136;
 	border: none;
+	border-radius: 5px;
+	background: #f1f1f1;
+}
+
+
+
+.max-cost {
+	text-align: right;
 }
 
 .filter-option {
@@ -561,7 +644,7 @@ a{
 .model-description p {
 	line-height: 18px;
 	color: #666666;
-	padding: 15px 60px;
+	padding: 15px 70px;
 	margin:0;
 	
 }

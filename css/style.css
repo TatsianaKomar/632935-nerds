@@ -44,7 +44,7 @@ a{
 
 	padding: 50px 20px 20px 20px;
 	padding-bottom: 0px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 }
 
 .main-navigation a,
@@ -381,7 +381,7 @@ a{
 .sorting {
 	display: flex;
 	
-	margin: 57px 20px 91px 20px;
+	padding: 57px 20px 30px 20px;
 }
 
 .sorting-list-wrapper {
@@ -508,7 +508,7 @@ a{
 
 .models-item {
 	position: relative;
-	padding: 0px 20px 67px 20px;
+	padding: 21px 20px 5px 20px;
 
 }
 
@@ -523,13 +523,9 @@ a{
 	
 	display: block;
 	background-image: url("../img/browser.svg");
-	position: absolute;
-	top: -40px;
 	opacity: 0.12;
 	width: 360px;
-	height: 41px;
-	z-index: -1
-
+	height: 40px;
 }
 
 .models-item:hover::before{
@@ -539,15 +535,15 @@ a{
 	background-image: url("../img/browser.svg");
 	opacity: 1;
 	width: 360px;
-	height: 41px;
-	z-index: -1;
+	height: 40px;
 }
 
 .model-description {
 	background-color: #eeeeee;
 	text-align: center;
-	width: 360px;
-	height: 231px;
+	width: 340px;
+	height: 211px;
+	padding: 10px;
 }
 
 .model-description h3 {
@@ -559,11 +555,19 @@ a{
 .model-description p {
 	line-height: 18px;
 	color: #666666;
+	margin: 0;
 }
 .model-description {
 	display: none;
 	position: absolute;
-	bottom: 74px;
+	bottom: 10px;
+}
+
+.price-button {
+	
+	padding: 18px 60px;
+	margin: 0 auto;
+	border-radius: 3px;
 }
 
 .models-item:hover div {
@@ -731,7 +735,7 @@ a{
 	list-style: none;
 
 	display: flex;
-	margin: 0 140px;
+	margin: 0 140px 65px 140px;
 	padding: 50px 0 32px 0;
 	width: 1160px;
 	border-bottom: 2px solid #eeeeee;
@@ -753,7 +757,7 @@ a{
 
 .pagination {
 	list-style: none;
-	margin: 0;
+	margin: 48px 20px 45px 20px;
 	padding: 0;
 	display: flex;
 }
@@ -765,10 +769,15 @@ a{
 	color: #000000;
 	text-transform: uppercase;
 	
-	width: 50px;
-	height: 50px;
+	padding: 16px 20px;
+	margin-right: 11px;
+
 	box-sizing: border-box;
 	border-radius: 3px;
+}
+
+.pagination .pagination-last-button {
+	padding: 16px 80px;
 }
 
 .pagination a:hover {
@@ -783,7 +792,9 @@ a{
 }
 
 .pagination-current a {
+	box-sizing: border-box;
 	background-color: #ffffff;
+	padding: 13px 18px;
 	border: 3px solid #dbdbdb;
 }
 
@@ -791,10 +802,10 @@ a{
 	background-image: url("../img/map.jpg");
 	background-repeat: no-repeat;
 
-	padding: 135px 140px 70px 140px;
+	padding: 70px 140px;
 		/* Сделать иначе*/
 	height: 346px;
-	background-position: 0 80px;
+	background-position: 0 15px;
 	position: relative;
 }
 

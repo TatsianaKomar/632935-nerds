@@ -333,8 +333,6 @@ a{
 	padding: 0;	
 	margin-top: 25px;
 	padding-bottom: 13px;
-	outline: 1px solid black;
-	
 }
 
 .filter-range {
@@ -347,8 +345,6 @@ a{
 	line-height: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
-
-	outline: 1px solid red;
 }
 
 .range-controls {
@@ -423,8 +419,6 @@ a{
 	background: #f1f1f1;
 }
 
-
-
 .max-cost {
 	text-align: right;
 }
@@ -434,14 +428,12 @@ a{
 	margin: 0;
 	padding: 0;
 	padding-bottom: 3px;
-
 }
 
 .filter-option {
 	list-style: none;
 	line-height: 20px;
 	padding: 15px 0 5px 35px;
-	outline: 1px solid green;
 }
 
 .filter-input + label {
@@ -534,24 +526,31 @@ a{
 	border-top: 2px solid #bfbfbf;
 }
 
+.right-column {
+	width: 800px;
+}
+
 .sorting {
 	display: flex;
 	
-	padding: 57px 20px 30px 20px;
+	padding: 55px 20px 32px 20px;
 }
 
 .sorting-list-wrapper {
-	flex-grow: 1;
 	display: flex;
-	justify-content: flex-end;
+	width: 50%;
+	justify-content: space-between;
+
 }
 .sorting-title {
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
+	padding-top: 2px; 
 	margin: 0;
-	flex-grow: 1;
+	width: 50%;
+	
 }
 
 .sorting-list {
@@ -559,8 +558,8 @@ a{
 	margin: 0;
 	padding: 0;
 	display: flex;
-}
 
+}
 
 
 .sorting-arrows {
@@ -572,6 +571,8 @@ a{
 	line-height: 18px;
 	color: rgba(0, 0, 0, 0.3);
 	text-transform: uppercase; 
+	padding: 0 7px 0 19px;
+
 }
 
 .sorting-option:hover {
@@ -591,6 +592,11 @@ a{
 	display: flex;
 	margin: 0;
 	padding: 0;
+	padding-top: 7px;
+}
+
+.arrow-up {
+	padding-left: 19px; 
 }
 
 .arrow-down::before {

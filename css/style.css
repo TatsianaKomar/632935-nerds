@@ -322,15 +322,19 @@ a{
 }
 
 .filter {
-	margin-top: 54px;
 	padding-left: 10px;
+	padding-top: 14px;
 
 }
 
 .filter fieldset {
 	border: none;
 	margin: 0;
-	padding: 0;
+	padding: 0;	
+	margin-top: 25px;
+	padding-bottom: 13px;
+	outline: 1px solid black;
+	
 }
 
 .filter-range {
@@ -409,6 +413,7 @@ a{
 	width: 60px;
 	padding: 8px 10px;
 	margin-left: 9px;
+	margin-bottom: 17px;
 
 	font: inherit;
 	text-align: center;
@@ -424,9 +429,19 @@ a{
 	text-align: right;
 }
 
+.filter-grid-list,
+.filter-features-list {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 3px;
+
+}
+
 .filter-option {
 	list-style: none;
 	line-height: 20px;
+	padding: 15px 0 5px 35px;
+	outline: 1px solid green;
 }
 
 .filter-input + label {

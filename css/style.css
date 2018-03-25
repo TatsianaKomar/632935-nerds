@@ -928,21 +928,28 @@ a{
 	margin-bottom: 36px;
 }
 
+
+.partners-list-wrapper {
+	margin: auto;
+}
+
 .partners-list {
 	list-style: none;
-	margin: 0;
+	margin: 60px 0;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	align-items: center;
+
 }
 
 .partners-item {
 	opacity: 0.2;
+	text-align: center;
+	display: inline-block;
+	padding: 0 30px;
 	outline: 1px solid red;
-	display: block;
-	padding: 0 40px 0 30px;
-
 }
 
 .partners-item:hover {
@@ -999,12 +1006,17 @@ a{
 .map {
 	background-image: url("../img/map.jpg");
 	background-repeat: no-repeat;
-
-	padding: 70px 140px;
+	opacity: 0.5;
+	margin: 55px 0;
 		/* Сделать иначе*/
-	height: 346px;
-	background-position: 0 15px;
+	height: 416px;
 	position: relative;
+}
+
+.map-wrapper {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 55px 0;
 }
 
 
@@ -1026,7 +1038,8 @@ a{
 
 .contacts p {
 	padding-top: 5px;
-	padding-bottom: 0px;
+	padding-bottom: 0;
+
 }
 
 .contacts::after {
@@ -1036,7 +1049,7 @@ a{
 	height: 190px;
 	width: 231px;
 	position: absolute;
-	top:  105px;
+	top:  90px;
 	left: 820px;
 }
 

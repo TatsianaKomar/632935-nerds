@@ -17,11 +17,6 @@ body {
 
 }
 
-/*Для сетки*/
-.temp {
-	opacity: 0.3;
-}
-
 .main-header {
 	background-color: #eeeeee;
 	padding-top: 50px;
@@ -40,8 +35,6 @@ a{
 	justify-content: space-between;
 	width: 1160px;
 	margin: 0 auto;
-	outline: 1px solid black;
-
 }
 
 .main-navigation {
@@ -79,7 +72,7 @@ a{
 	margin: 0;
 	margin-top: 25px;
 	justify-content: center;
-outline: 1px solid green;	
+
 }
 
 .site-navigation-wrapper {
@@ -89,9 +82,6 @@ outline: 1px solid green;
 .site-navigation li {
 	padding:  0 23px;
 	display: block;
-
-	outline: 1px solid green;	
-
 }
 
 .site-navigation-current {
@@ -108,8 +98,6 @@ outline: 1px solid green;
 	text-align: right;
 	position: relative;
 	margin-top: 24px;
-	
-	outline: 1px solid yellow;
 }
 
 .cart::before {
@@ -122,7 +110,6 @@ outline: 1px solid green;
 	width: 15px;
 	height: 15px;
 	opacity: 0.3;
-	outline: 1px solid green;
 }
 
 .cart-current a {
@@ -786,9 +773,7 @@ outline: 1px solid green;
 }
 
 .services {
-	padding: 60px 0;
-	outline: 1px solid yellow;
-
+	padding: 80px 0;
 }
 
 .services-list {
@@ -849,14 +834,14 @@ outline: 1px solid green;
 .info {
 	display: flex;
 	justify-content: space-between;
-	padding: 60px 0;
+	padding: 40px 0;
 	
 	outline: 1px solid red;
 }
 
 .info-description {
 	width: 660px;
-	padding-top: 50px;
+	padding-top: 52px;
 	outline: 1px solid green;
 }
 
@@ -879,7 +864,7 @@ outline: 1px solid green;
 
 .info-description-list li{
 	position: relative;
-	margin: 24px 0;
+	margin: 25px 0;
 	padding: 0 35px;
 }
 
@@ -906,6 +891,7 @@ outline: 1px solid green;
 	font-weight: 700;
 	text-align: center;
 	margin: 0;
+	padding-top: 15px;
 }
 
 .info-terms-list {

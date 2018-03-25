@@ -1,3 +1,10 @@
+html {
+	box-sizing: border-box;
+}
+
+*. ::before, ::after {
+	box-sizing: inherit;
+}
 body {
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
@@ -5,11 +12,14 @@ body {
 	font-weight: 400;
 	color: #000000;
 
+	background-image: url("../img/nerds-index.jpg");
+	background-repeat: no-repeat;
+
 }
 
 /*Для сетки*/
 .temp {
-	opacity: 1;
+	opacity: 0.3;
 }
 
 .main-header {
@@ -284,6 +294,13 @@ a{
 	color: rgba(255, 255, 255, 0.3);
 }
 
+.container{
+	margin: 0 auto;
+	padding: 20px;
+	width: 1200px;
+	border: 1px solid red;
+}
+
 .services-item:nth-child(2) .button {
 	background-color: #00ca74;
 }
@@ -309,6 +326,8 @@ a{
 	background-color: #e5a722;
 	color: rgba(255, 255, 255, 0.3);
 }
+
+
 
 
 
@@ -758,9 +777,9 @@ a{
 }
 
 .services {
-	padding: 20px;
-	margin: 60px 120px;
-	width: 1160px;
+	padding: 60px 20px;
+	border: 1px solid yellow;
+
 }
 
 .services-list {
@@ -820,16 +839,16 @@ a{
 
 .info {
 	display: flex;
-	width: 1160px;
-	padding: 40px 0 49px 0;
-	margin: 73px 140px 0px 140px;
-	border-top: 2px solid #eeeeee;
-	border-bottom: 2px solid #eeeeee;	
+	justify-content: space-between;
+	padding: 60px 20px;
+	
+	border: 1px solid red;
 }
 
 .info-description {
-	padding-top:  35px;
-	padding-right: 150px
+	width: 660px;
+	padding-top: 50px;
+	border: 1px solid green;
 }
 
 
@@ -918,9 +937,6 @@ a{
 	list-style: none;
 
 	display: flex;
-	margin: 0 140px 65px 140px;
-	padding: 50px 0 32px 0;
-	width: 1160px;
 	border-bottom: 2px solid #eeeeee;
 }
 

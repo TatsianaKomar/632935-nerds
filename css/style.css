@@ -1060,10 +1060,13 @@ a{
 	border-radius: 3px;
 }
 
+.footer-social-wrapper {
+	margin: 0 auto;
+	width: 1200px;
+}
+
 .footer-social {
 	display: flex;
-	width: 1200px;
-	margin: 0 120px 75px 120px;
 }
 
 .socials {

@@ -891,7 +891,7 @@ a{
 	font-weight: 700;
 	text-align: center;
 	margin: 0;
-	padding-top: 15px;
+	padding-top: 17px;
 }
 
 .info-terms-list {
@@ -930,15 +930,19 @@ a{
 
 .partners-list {
 	list-style: none;
-
+	margin: 0;
+	padding: 0;
 	display: flex;
-	border-bottom: 2px solid #eeeeee;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .partners-item {
 	opacity: 0.2;
-	text-align: center;
-	margin: auto;
+	outline: 1px solid red;
+	display: block;
+	padding: 0 40px 0 30px;
+
 }
 
 .partners-item:hover {

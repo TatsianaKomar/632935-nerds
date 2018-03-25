@@ -35,6 +35,14 @@ a{
 	width: 160px;
 	height: 65px;
 }
+.header-wrapper{
+	display: flex;
+	justify-content: space-between;
+	width: 1160px;
+	margin: 0 auto;
+	outline: 1px solid black;
+
+}
 
 .main-navigation {
 	text-transform: uppercase;
@@ -42,16 +50,10 @@ a{
 	font-weight: 500;
 
 	display: flex;
-outline: 1px solid red;
-}
-
-.header-wrapper{
-	display: flex;
-	justify-content: space-between;
-	width: 1160px;
-	margin: 0 auto;
 
 }
+
+
 
 .main-navigation a,
 .cart a {
@@ -71,15 +73,25 @@ outline: 1px solid red;
 
 .site-navigation {
 	list-style: none;
-
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
-	margin: auto;	
+	margin: 0;
+	margin-top: 25px;
+	justify-content: center;
+outline: 1px solid green;	
+}
+
+.site-navigation-wrapper {
+	width: 840px;
 }
 
 .site-navigation li {
-	padding: 15px 23px 0 23px;
+	padding:  0 23px;
+	display: block;
+
+	outline: 1px solid green;	
+
 }
 
 .site-navigation-current {
@@ -92,11 +104,12 @@ outline: 1px solid red;
 	line-height: 30px;
 	font-weight: 500;
 	display: block;
-	width: 130px;
+	width: 160px;
 	text-align: right;
 	position: relative;
 	margin-top: 24px;
-	padding-left: 44px;
+	
+	outline: 1px solid yellow;
 }
 
 .cart::before {
@@ -104,11 +117,12 @@ outline: 1px solid red;
 	background-image: url("../img/cart-icon.svg");
 	background-repeat: no-repeat;
 	position: absolute;
-	left: 42px;
+	left: 45px;
 	top: 8px;
 	width: 15px;
 	height: 15px;
 	opacity: 0.3;
+	outline: 1px solid green;
 }
 
 .cart-current a {

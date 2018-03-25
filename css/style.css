@@ -840,13 +840,13 @@ a{
 	justify-content: space-between;
 	padding: 40px 0;
 	
-	outline: 1px solid red;
+
 }
 
 .info-description {
 	width: 660px;
 	padding-top: 52px;
-	outline: 1px solid green;
+
 }
 
 
@@ -954,7 +954,7 @@ a{
 	text-align: center;
 	display: inline-block;
 	padding: 0 30px;
-	outline: 1px solid red;
+
 }
 
 .partners-item:hover {

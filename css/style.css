@@ -24,7 +24,7 @@ body {
 
 .main-header {
 	background-color: #eeeeee;
-	width: 1440px;
+	padding-top: 50px;
 }
 
 a{
@@ -42,17 +42,15 @@ a{
 	font-weight: 500;
 
 	display: flex;
-	width: 100%;
+outline: 1px solid red;
 }
 
-.header-wrapper-1{
+.header-wrapper{
 	display: flex;
 	justify-content: space-between;
 	width: 1160px;
-
-	padding: 50px 20px 20px 20px;
-	padding-bottom: 0px;
 	margin: 0 auto;
+
 }
 
 .main-navigation a,
@@ -127,10 +125,8 @@ a{
 }
 
 .slider-wrapper {
-	width: 1200px;
+	width: 1160px;
 	margin: 0 auto;
-	padding: 0 20px;
-	box-sizing: border-box;
 }
 
 .main-slider {
@@ -251,7 +247,7 @@ a{
 .slide p {
 	max-width: 430px;
 	margin: 0;
-	margin-bottom: 50px;
+	margin-bottom: 52px;
 }
 
 .slide .button {
@@ -296,8 +292,7 @@ a{
 
 .container{
 	margin: 0 auto;
-	padding: 20px;
-	width: 1200px;
+	width: 1160px;
 	border: 1px solid red;
 }
 
@@ -334,7 +329,7 @@ a{
 .column-wrapper {
 	display: flex;
 	justify-content: space-between;
-	width: 1200px;
+	width: 1160px;
 	margin: 0 120px;
 }
 
@@ -777,8 +772,8 @@ a{
 }
 
 .services {
-	padding: 60px 20px;
-	border: 1px solid yellow;
+	padding: 60px 0;
+	outline: 1px solid yellow;
 
 }
 
@@ -840,15 +835,15 @@ a{
 .info {
 	display: flex;
 	justify-content: space-between;
-	padding: 60px 20px;
+	padding: 60px 0;
 	
-	border: 1px solid red;
+	outline: 1px solid red;
 }
 
 .info-description {
 	width: 660px;
 	padding-top: 50px;
-	border: 1px solid green;
+	outline: 1px solid green;
 }
 
 

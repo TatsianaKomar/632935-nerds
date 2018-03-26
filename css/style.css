@@ -12,6 +12,10 @@ body {
 	font-weight: 400;
 	color: #000000;
 
+		background-image: url("../img/nerds-catalog.jpg");
+	background-repeat: no-repeat;
+	opacity: 0.5; 
+
 }
 
 .main-header {
@@ -988,7 +992,9 @@ a{
 
 .pagination {
 	list-style: none;
+	margin: 0;
 	margin-top: 40px;
+	margin-bottom: 16px;
 	padding: 0;
 	display: flex;
 }
@@ -1035,7 +1041,6 @@ a{
 .map {
 	background-image: url("../img/map.jpg");
 	background-repeat: no-repeat;
-	opacity: 0.5;
 	margin: 45px 0 55px 0;
 		/* Сделать иначе*/
 	height: 416px;
@@ -1043,20 +1048,35 @@ a{
 }
 
 .map-wrapper {
-	width: 1160px;
+	box-sizing: border-box;
+	width: 1200px;
 	margin: 0 auto;
-	padding: 55px 0;
+	padding: 56px 20px;
 }
 
+.map::after {
+	content: "";
+	display: block;
+	background-image: url(../img/map-marker.png);
+	height: 190px;
+	width: 231px;
+	position: absolute;
+	top:  21%;
+	left: 57%;
+}
 
 .contacts {
+	box-sizing: border-box;
 	background-color: #ffffff;
 	font-size: 16px;
 	line-height: 18px;
 
-	width: 220px;
-	padding: 30px 50px 45px 50px;
+	width: 320px;
+	padding: 30px 50px 46px 50px;
+	outline: 1px solid red;
 }
+
+
 
 .contacts h3 {
 	font-size: 18px;
@@ -1066,32 +1086,25 @@ a{
 }
 
 .contacts p {
-	padding-top: 5px;
-	padding-bottom: 0;
+	margin: 0;
+	padding: 2px 0  17px 0;
 
 }
 
-.contacts::after {
-	content: "";
-	display: block;
-	background-image: url(../img/map-marker.png);
-	height: 190px;
-	width: 231px;
-	position: absolute;
-	top:  90px;
-	left: 820px;
-}
+
 
 .feedback .button {
 	display: inline-block;
-	margin-top: 19px;
+	margin-top: 20px;
 	padding: 16px 44px;
 	border-radius: 3px;
 }
 
 .footer-social-wrapper {
+	box-sizing: border-box;
 	margin: 0 auto;
 	width: 1200px;
+	padding: 0 20px;
 }
 
 .footer-social {
@@ -1103,8 +1116,8 @@ a{
 	margin: 0;
 	padding: 0;
 	display: flex;
-	flex-grow: 2;
-	padding: 15px 20px;
+	flex-grow: 3;
+	padding: 12px 10px 15px 0;
 }
 
 .social-button {
@@ -1123,6 +1136,7 @@ a{
 
 .social-button:active {
 	background-color: #d7373b;
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
 .vk::before {
@@ -1197,7 +1211,7 @@ a{
 .footer-social-discount{
 	line-height: 22px;
 
-	flex-grow: 4;
+	flex-grow: 5;
 	padding-top: 20px;
 }
 
@@ -1209,6 +1223,17 @@ a{
 
 .footer-social-discount p {
 	margin-top:  10px;
+}
+
+.modal-feedback {
+	width: 960;
+	margin: 0 auto;
+	position: fixed;
+
+}
+
+.modal-feedback-wrapper {
+
 }
 
 .modal-feedback h2 {

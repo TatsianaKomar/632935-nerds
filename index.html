@@ -8,7 +8,6 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="temp">
   	<header class="main-header">
       <div class="header-wrapper">
   		<nav class="main-navigation">
@@ -146,9 +145,11 @@
       </div>
     </div>
     </footer>
-    <section class="modal-feedback">
+    <section class="modal-feedback"> 
+      <div class="modal-feedback-wrapper">
       <h2>Напишите нам</h2>
       <form class="modal-feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="modal-form-wrapper">
         <p>
           <label for="modal-feedback-name">Ваше имя:</label>
           <input type="text" id="modal-feedback-name" name="name" placeholder="Имя Фамилия">
@@ -159,11 +160,13 @@
         </p>
         <p>
           <label for="modal-feedback-text">Текст письма:</label>
-          <input type="text" id="modal-feedback-text" name="text" placeholder="В свободной форме">
+          <textarea id="modal-feedback-text" name="text" placeholder="В свободной форме"></textarea>
         </p>
+        </div>
         <button type="submit" class="button">Отправить</button>
       </form>
       <button class="modal-close" type="button">Закрыть</button>
+    </div>
     </section>
   </body>
 </html>

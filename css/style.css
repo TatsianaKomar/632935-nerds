@@ -27,6 +27,15 @@ a{
 	width: 160px;
 	height: 65px;
 }
+
+.logo:hover{
+	opacity: 0.8;
+}
+
+.logo:active{
+	opacity: 0.3;
+}
+
 .header-wrapper{
 	display: flex;
 	justify-content: space-between;

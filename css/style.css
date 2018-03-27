@@ -822,16 +822,13 @@ a {
 	display: flex;
 	justify-content: space-between;
 	padding: 40px 0;
-	
-
+	box-shadow: inset 0 -2px 0 0 #eeeeee;
 }
 
 .info-description {
 	width: 660px;
-	padding-top: 52px;
-
+	padding-top: 50px;
 }
-
 
 .info-description b {
 	font-size: 45px;
@@ -896,7 +893,6 @@ a {
 	padding-top: 59px;
 	display: flex;
 	flex-direction: column;
-
 }
 
 .info-terms-list span {
@@ -904,6 +900,10 @@ a {
 	line-height: 10.06px;
 	font-weight: 700;
 	margin-bottom: 37px;
+}
+
+.info-terms-list sup {
+	font-size: 30px;
 }
 
 .info-terms p::before {
@@ -915,36 +915,50 @@ a {
 	margin-bottom: 36px;
 }
 
-
-.partners-list-wrapper {
-	margin: 0 auto;
-}
-
 .partners-list {
+	box-sizing: content-box;
 	list-style: none;
 	margin: 0;
-	padding: 60px 0;
-	margin-bottom: 60px;
+	padding: 65px 0;
+	margin-bottom: 82px;
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
-	align-items: center;
-
+	box-shadow: inset 0 -2px 0 0 #eeeeee;
 }
 
 .partners-item {
-	opacity: 0.2;
-	text-align: center;
-	display: inline-block;
-	padding: 0 30px;
-
+	width: 260px;
+	height: 50px;
+	padding: 0 20px;
+	
+	box-shadow: inset 2px 0 0 0 #eeeeee;
 }
 
-.partners-item:hover {
+.partners-item a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0.2;
+	height: 55px;
+}
+
+.partners-item:first-child {
+	padding-left: 0;
+	box-shadow: none;
+}
+
+.partners-item:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+
+
+.partners-item a:hover {
 	opacity: 1;
 }
 
-.partners-item:active {
+.partners-item a:active {
 	opacity: 0.1;
 }
 
@@ -960,14 +974,13 @@ a {
 .pagination a {
 	line-height: 18px;
 	background-color: #eeeeee;
-	display: block;
 	color: #000000;
 	text-transform: uppercase;
-	
+
+	display: block;
 	padding: 16px 20px;
 	margin-right: 11px;
 
-	box-sizing: border-box;
 	border-radius: 3px;
 }
 
@@ -983,7 +996,6 @@ a {
 	background-color: #d5d5d5;
 	color: rgba(0, 0, 0, 0.3);
 	box-shadow:  inset 0 3px 0 0 #bfbfbf;
-	
 }
 
 .pagination-current a,
@@ -1000,16 +1012,8 @@ a {
 	background-image: url("../img/map.jpg");
 	background-repeat: no-repeat;
 	margin: 45px 0 55px 0;
-		/* Сделать иначе*/
 	height: 416px;
 	position: relative;
-}
-
-.map-wrapper {
-	box-sizing: border-box;
-	width: 1200px;
-	margin: 0 auto;
-	padding: 56px 20px;
 }
 
 .map::after {
@@ -1023,6 +1027,13 @@ a {
 	left: 57%;
 }
 
+.map iframe {
+	position: relative;
+	z-index: 2;
+
+	border: none;
+}
+
 .contacts {
 	box-sizing: border-box;
 	background-color: #ffffff;
@@ -1030,11 +1041,11 @@ a {
 	line-height: 18px;
 
 	width: 320px;
-	padding: 30px 50px 46px 50px;
-
+	padding: 28px 50px 46px 50px;
+	position: absolute;
+	top: 56px;
+	z-index: 3;
 }
-
-
 
 .contacts h3 {
 	font-size: 18px;
@@ -1046,23 +1057,13 @@ a {
 .contacts p {
 	margin: 0;
 	padding: 2px 0  17px 0;
-
 }
-
-
 
 .feedback .button {
 	display: inline-block;
 	margin-top: 20px;
 	padding: 16px 44px;
 	border-radius: 3px;
-}
-
-.footer-social-wrapper {
-	box-sizing: border-box;
-	margin: 0 auto;
-	width: 1200px;
-	padding: 0 20px;
 }
 
 .footer-social {
@@ -1075,7 +1076,7 @@ a {
 	padding: 0;
 	display: flex;
 	flex-grow: 3;
-	padding: 12px 10px 15px 0;
+	padding: 14px 10px 15px 0;
 }
 
 .social-button {
@@ -1177,7 +1178,7 @@ a {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 36px;
-	}
+}
 
 .footer-social-discount p {
 	margin-top:  10px;
@@ -1189,18 +1190,20 @@ a {
 	box-sizing: border-box;
 	padding: 50px 80px;
 	position: fixed;
-
+	
 	left: 50%;
 	top: 50%;
 	margin-left: -480px;
 	margin-top: -330px;
 	background-color: #ffffff;
+	z-index: 110;
 
 	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
-
-
+.modal-show {
+	display: block;
+}
 
 .modal-close {
 	width: 22px;
@@ -1269,7 +1272,6 @@ a {
 }
 
 .modal-feedback-form input {
-	box-sizing: border-box;
 	font-family: inherit;
 	width: 360px;
 	min-height: 50px;
@@ -1292,7 +1294,7 @@ a {
 	display: block;
 	width: 760px;
 	min-height: 116px;
-
+	resize: none;
 }
 .modal-feedback-form textarea:hover,
 .modal-feedback-form input:hover {
@@ -1314,17 +1316,16 @@ a {
 	padding: 15px 84px;
 	margin: 23px 20px 35px 20px;
 	border-radius: 3px;
-
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 

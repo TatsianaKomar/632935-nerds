@@ -1011,6 +1011,7 @@ a {
 .map {
 	background-image: url("../img/map.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 45px 0 55px 0;
 	height: 416px;
 	position: relative;
@@ -1020,6 +1021,7 @@ a {
 	content: "";
 	display: block;
 	background-image: url(../img/map-marker.png);
+	background-repeat: no-repeat;
 	height: 190px;
 	width: 231px;
 	position: absolute;

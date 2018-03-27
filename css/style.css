@@ -2,29 +2,36 @@ html {
 	box-sizing: border-box;
 }
 
-*. ::before, ::after {
+*, *::before, *::after {
 	box-sizing: inherit;
 }
+
 body {
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #000000;
-
-
-
 }
 
-
+.container {
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 1200px;
+}
 
 .main-header {
 	background-color: #eeeeee;
 	padding-top: 50px;
 }
 
-a{
+a {
 	text-decoration: none;
+}
+
+.header-top-inner {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .logo {
@@ -40,15 +47,6 @@ a{
 	opacity: 0.3;
 }
 
-.header-wrapper{
-	box-sizing: border-box;
-	display: flex;
-	justify-content: space-between;
-	width: 1200px;
-	padding: 0 20px;
-	margin: 0 auto;
-}
-
 .main-navigation {
 	text-transform: uppercase;
 	line-height: 30px;
@@ -56,8 +54,6 @@ a{
 
 	display: flex;
 }
-
-
 
 .main-navigation a,
 .cart a {
@@ -77,16 +73,13 @@ a{
 
 .site-navigation {
 	list-style: none;
+
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	padding: 0;
 	margin: 0;
 	margin-top: 25px;
-	justify-content: center;
-
-}
-
-.site-navigation-wrapper {
 	width: 840px;
 }
 
@@ -106,7 +99,7 @@ a{
 	text-transform: uppercase;
 	line-height: 30px;
 	font-weight: 500;
-	display: block;
+
 	width: 160px;
 	text-align: right;
 	position: relative;
@@ -140,16 +133,10 @@ a{
 	margin: 77px auto 0 auto ;
 }
 
-.slider-wrapper {
-	box-sizing: border-box;
-	width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-
 .main-slider {
 	position: relative;
-	background-color: #eeeeee
+	background-color: #eeeeee;
+	width: 100%;
 }
 
 .controls {
@@ -168,7 +155,7 @@ a{
 
 .controls label {
 	position: relative;
-
+	box-sizing: content-box;
 	display: inline-block;
 	width: 18px;
 	height: 18px;
@@ -195,7 +182,6 @@ a{
 .slider-list {
 	margin: 0;
 	padding: 0;
-	
 	list-style: none;
 }
 
@@ -211,44 +197,44 @@ a{
 	background-position: 93% 18px;
 }
 
-.slide:nth-child(2)  {
+.slide:nth-child(2) {
 	background-image: url("../img/slide-2.png");
 	background-repeat: no-repeat;
 	background-position: 100% 0;
 }
 
-.slide:nth-child(3)  {
+.slide:nth-child(3) {
 	background-image: url("../img/slide-3.png");
 	background-repeat: no-repeat;
 	background-position: 100% 20px;
 }
 
 #slide-1:checked ~ .slider-list .slide:nth-child(1) {
-  display: block;
+	display: block;
 }
 
 #slide-2:checked ~ .slider-list .slide:nth-child(2) {
-  display: block;
+	display: block;
 }
 
 #slide-3:checked ~ .slider-list .slide:nth-child(3) {
-  display: block;
+	display: block;
 }
 
 #slide-1:checked ~ .controls .controls-item--1::before,
 #slide-2:checked ~ .controls .controls-item--2::before,
 #slide-3:checked ~ .controls .controls-item--3::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 2;
-  width: 4px;
-  height: 4px;
-  margin: -4px;
-  background-color: inherit;
-  border: 2px solid #c1c1c1;
-  border-radius: 50%;
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 2;
+	width: 4px;
+	height: 4px;
+	margin: -4px;
+	background-color: inherit;
+	border: 2px solid #c1c1c1;
+	border-radius: 50%;
 }
 
 .slide b {
@@ -309,13 +295,6 @@ a{
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
-.container{
-	box-sizing: border-box;
-	margin: 0 auto;
-	padding: 0 20px;
-	width: 1200px;
-}
-
 .services-item:nth-child(2) .button {
 	background-color: #00ca74;
 }
@@ -344,10 +323,6 @@ a{
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
-
-
-
-
 .column-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -356,22 +331,19 @@ a{
 
 .left-column {
 	width: 260px;
-	padding-top: 56px;
+	padding-top: 54px;
+	box-sizing: content-box;
 }
 
 .right-column{
 	width: 760px;
 }
 
-
-
 .filter fieldset {
 	border: none;
 	margin: 0;
 	padding: 0;
-
 	padding-bottom: 43px;
-
 }
 
 .filter-range {
@@ -390,10 +362,10 @@ a{
 .range-controls {
 	position: relative;
 	height: 41px;
-  	margin-bottom: 12px;
-  	padding: 39px 20px 0 20px;
+	margin-bottom: 12px;
+	padding: 40px 20px 0 20px;
 	background-color: #f1f1f1;
-  
+
 	border-radius: 5px;
 }
 
@@ -467,8 +439,6 @@ a{
 .filter-features-list {
 	margin: 0;
 	padding: 0;
-
-
 }
 
 .filter-option {
@@ -543,14 +513,12 @@ a{
 	top: -2px;
 	left: -34px;
 	opacity: 0.3;
-
 }
 
 .filter-input-radio + label:hover::before,
 .filter-input-checkbox + label:hover::before,
 .filter-input-radio:checked + label:hover::before,
 .filter-input-checkbox:checked + label:hover::before {
-	
 	opacity: 1;
 }
 
@@ -558,19 +526,16 @@ a{
 .filter-input-checkbox + label:disabled::before,
 .filter-input-radio:checked + label:disabled::before,
 .filter-input-checkbox:checked + label:disabled::before {
-	
 	opacity: 0.1;
 }
 
 .filter-button {
 	background-color: #eeeeee;
-	text-align: center;
-	vertical-align: middle;
 	text-transform: uppercase;
 	border: none;
 	line-height: 18px;
-	font-weight: 500;
-
+	font-weight: 500;	
+	
 	padding: 16px 89px;
 
 	border-radius: 3px;
@@ -583,14 +548,12 @@ a{
 .filter-button:active {
 	background-color: #d5d5d5;
 	color: rgba(0, 0, 0, 0.3);
-	border-top: 2px solid #bfbfbf;
+	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
-
-
 
 .sorting {
 	display: flex;
-	padding: 57px 0 40px 0;
+	padding: 55px 0 41px 0;
 }
 
 .sorting-list-wrapper {
@@ -599,6 +562,7 @@ a{
 	justify-content: space-between;
 
 }
+
 .sorting-title {
 	font-size: 18px;
 	line-height: 18px;
@@ -606,7 +570,6 @@ a{
 	text-transform: uppercase;
 	margin: 0;
 	width: 50%;
-	
 }
 
 .sorting-list {
@@ -614,9 +577,7 @@ a{
 	margin: 0;
 	padding: 0;
 	display: flex;
-
 }
-
 
 .sorting-arrows {
 	list-style: none;
@@ -628,7 +589,6 @@ a{
 	color: rgba(0, 0, 0, 0.3);
 	text-transform: uppercase; 
 	padding: 0 7px 0 19px;
-
 }
 
 .sorting-option:hover {
@@ -638,6 +598,8 @@ a{
 }
 
 .sorting-option-current,
+.sorting-option-current:hover,
+.sorting-option-current:active,
 .sorting-option:active {
 	font-size: 14px;
 	line-height: 18px;
@@ -727,15 +689,12 @@ a{
 .models-item {
 	position: relative;
 	margin: 12px 0 14px 0;
-
-
 }
 
 .models-item img {
 	box-sizing: border-box;
 	border: 1px solid #e5e5e5;	
 }
-
 
 .models-item::before {
 	content: "";
@@ -763,10 +722,10 @@ a{
 	width: 360px;
 	
 	padding: 25px 0 31px 0;
-	
-	display: none;
 	position: absolute;
 	bottom: 10px;
+
+	display: none;
 }
 
 .model-description h3 {
@@ -782,9 +741,7 @@ a{
 	color: #666666;
 	padding: 15px 70px;
 	margin:0;
-	
 }
-
 
 .price-button {
 	display: block;
@@ -802,7 +759,8 @@ a{
 }
 
 .services {
-	padding: 80px 0;
+	padding: 80px 0 95px 0;
+	box-shadow: inset 0 -2px 0 0 #eeeeee;
 }
 
 .services-list {

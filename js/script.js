@@ -6,8 +6,7 @@ var username = popup.querySelector("[name=name]");
 var email = popup.querySelector("[name=email]");
 var text = popup.querySelector("[name=text]");
 var isStorageSupport = true;
-var storagename = localStorage.getItem("username");
-var storageemail = localStorage.getItem("email");
+
 
 
   
@@ -24,7 +23,7 @@ link.addEventListener("click", function (evt) {
 
 	if (storagename || storageemail) {
 		username.value = storagename;
-		email.value = storageemail
+		email.value = storageemail;
 		text.focus();
 	} else {
 		username.focus();

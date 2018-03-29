@@ -1025,7 +1025,7 @@ a {
 	left: 57%;
 }
 
-.map iframe {
+iframe {
 	position: relative;
 	z-index: 2;
 

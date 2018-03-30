@@ -875,17 +875,15 @@ a {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: justify;
-			-ms-flex-pack: justify;
-					justify-content: space-between;
 	padding: 23px 0 49px 0;
 	-webkit-box-shadow: inset 0 -2px 0 0 #eeeeee;
 					box-shadow: inset 0 -2px 0 0 #eeeeee;
 }
 
 .info-description {
-	width: 660px;
+	width: 800px;
 	padding-top: 50px;
+	padding-right: 140px;
 }
 
 .info-description b {
